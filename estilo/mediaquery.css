@@ -1,0 +1,40 @@
+/* Celulares - até 600px */
+@media (max-width: 600px) {
+    header > h1 {
+        font-size: 6vw;
+        padding-top: 30px;
+    }
+
+    section {
+        font-size: 5vw;
+        padding: 5vh 15px;
+    }
+
+    section.imagem > p {
+        font-size: 4vw;
+    }
+
+    footer {
+        font-size: 3vw;
+    }
+}
+
+/* Tablets - entre 601px e 1024px */
+@media (min-width: 601px) and (max-width: 1024px) {
+    header > h1 {
+        font-size: 8vw;
+    }
+
+    section {
+        font-size: 3vw;
+        padding: 8vh 20px;
+    }
+
+    section.imagem > p {
+        font-size: 2.5vw;
+    }
+
+    footer {
+        font-size: 2vw;
+    }
+}
